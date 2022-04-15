@@ -1,12 +1,11 @@
 import React from "react";
+import Box from "@mui/material/Box";
 
 const About = () => {
   return (
-    <div>
-      <div>About Me</div>
-      <div>Resiliance Bounce Humble</div>
-      <div>Skills</div>
-    </div>
+    <Box padding={10} id="about" className="about">
+      About
+    </Box>
   );
 };
 
