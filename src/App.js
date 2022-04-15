@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header";
+import Layout from "./components/Layout";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -7,12 +7,11 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <>
-      <Header />
-      <main className="l-main">
+      <Layout>
         <Home />
         <About />
         <Skills />
-      </main>
+      </Layout>
     </>
   );
 }
