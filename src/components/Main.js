@@ -34,7 +34,7 @@ const Main = () => {
         </span>{" "}
         as a senior software engineer.
       </Typography>
-      <Typography>"No greater engineer work 9 to 5"</Typography>
+      <Typography>"No great engineer ever works 9 to 5"</Typography>
     </Box>
   );
 };
