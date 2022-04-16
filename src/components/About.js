@@ -1,6 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 
 const About = () => {
   return (
@@ -8,17 +9,25 @@ const About = () => {
       padding={10}
       id="about"
       className="about"
-      style={{ textAlign: "center" }}
+      color="#6495ED"
+      textAlign="center"
     >
       <Box className="title" paddingTop={3} paddingBottom={5}>
-        About
+        <Typography variant="h4">About Me</Typography>
       </Box>
       <Box className="content">
-        <Grid container justifyContent="space-evenly">
-          <Grid item>character 1</Grid>
-          <Grid item>character 2</Grid>
-          <Grid item>character 3</Grid>
-        </Grid>
+        <Typography paddingBottom={2}>
+          I'm Jisu, a full-stack software engineer based in Bribane, Australia.
+        </Typography>
+        <Typography paddingBottom={2}>
+          I have a background in computer science and I enjoy helping people
+          transforming their ideas into the world.
+        </Typography>
+        <Typography paddingBottom={2}>
+          I am currently working for Credfin Australia as a senior software
+          engineer.
+        </Typography>
+        <Typography>"No greater engineer work 9 to 5"</Typography>
       </Box>
     </Box>
   );

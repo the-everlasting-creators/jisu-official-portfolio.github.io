@@ -29,9 +29,6 @@ const Header = () => {
               <Link padding={5} href="#about" underline="hover">
                 About
               </Link>
-              <Link padding={5} href="#skills" underline="hover">
-                Skills
-              </Link>
             </nav>
           </Box>
         </Grid>
