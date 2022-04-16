@@ -20,7 +20,7 @@ const Main = () => {
             Hi There, I am Jisu
           </Typography>
           <Typography paddingBottom={2}>
-            A full-stack software engineer based in Bribane, Australia.
+            A full-stack software engineer based in Brisbane, Australia.
           </Typography>
           <Typography paddingBottom={2}>
             I have a background in computer science.
