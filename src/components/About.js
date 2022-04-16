@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
 
 const About = () => {
   return (
@@ -24,8 +24,11 @@ const About = () => {
           transforming their ideas into the world.
         </Typography>
         <Typography paddingBottom={2}>
-          I am currently working for Credfin Australia as a senior software
-          engineer.
+          I am currently working for{" "}
+          <span>
+            <Link href="https://credfin.io/">Credfin Australia</Link>
+          </span>{" "}
+          as a senior software engineer.
         </Typography>
         <Typography>"No greater engineer work 9 to 5"</Typography>
       </Box>
