@@ -42,6 +42,22 @@ const Header = () => {
               >
                 About
               </Link>
+              <Link
+                padding={5}
+                href="#projects"
+                underline="hover"
+                style={{ color: "#507844" }}
+              >
+                Projects
+              </Link>
+              <Link
+                padding={5}
+                href="#writings"
+                underline="hover"
+                style={{ color: "#507844" }}
+              >
+                Writings
+              </Link>
             </nav>
           </Box>
         </Grid>

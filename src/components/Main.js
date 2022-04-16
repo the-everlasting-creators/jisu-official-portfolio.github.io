@@ -17,7 +17,7 @@ const Main = () => {
       >
         <Grid item>
           <Typography variant="h4" paddingBottom={2}>
-            I am Jisu
+            Hi There, I am Jisu
           </Typography>
           <Typography paddingBottom={2}>
             A full-stack software engineer based in Bribane, Australia.
@@ -45,9 +45,11 @@ const Main = () => {
           <Typography>"No greater engineer work 9 to 5"</Typography>
         </Grid>
         <Grid item>
-          <Avatar alt="Jisu Choi" sx={{ width: 180, height: 180 }}>
-            JS
-          </Avatar>
+          <Avatar
+            alt="Jisu Choi"
+            src="../static/jisu.jpg"
+            sx={{ width: 180, height: 180 }}
+          />
         </Grid>
       </Grid>
     </Box>

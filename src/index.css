@@ -3,4 +3,16 @@
 * {
   font-family: Oxygen;
   background-color: #253022;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
 }

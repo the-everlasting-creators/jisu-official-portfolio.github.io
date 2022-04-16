@@ -1,16 +1,16 @@
-import "./App.css";
-import Layout from "./components/Layout";
+import Header from "./components/Header";
 import Main from "./components/Main";
+import Skiils from "./components/Skills";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <Layout>
-        <Main />
-      </Layout>
+    <main>
+      <Header />
+      <Main />
+      <Skiils />
       <Footer />
-    </>
+    </main>
   );
 }
 
