@@ -5,14 +5,12 @@ import Grid from "@mui/material/Grid";
 
 const Skills = () => {
   return (
-    <Box>
+    <Box style={{ color: "#507844" }}>
       <Box padding={5}>
-        <Typography variant="h4" color="white">
-          Skills
-        </Typography>
+        <Typography variant="h4">Skills</Typography>
       </Box>
       <Box paddingTop={3} paddingBottom={5}>
-        <Grid container justifyContent="space-evenly" color="white">
+        <Grid container justifyContent="space-evenly">
           <Grid item>Javascript</Grid>
           <Grid item>Typescript</Grid>
           <Grid item>NodeJS</Grid>

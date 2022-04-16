@@ -7,51 +7,36 @@ import Link from "@mui/material/Link";
 
 const Main = () => {
   return (
-    <Box padding={10}>
-      <Grid
-        container
-        justifyContent="space-evenly"
-        style={{ color: "white" }}
-        alignItems="center"
-        justifyItems="center"
-      >
-        <Grid item>
-          <Typography variant="h4" paddingBottom={2}>
-            Hi There, I am Jisu
-          </Typography>
-          <Typography paddingBottom={2}>
-            A full-stack software engineer based in Brisbane, Australia.
-          </Typography>
-          <Typography paddingBottom={2}>
-            I have a background in computer science.
-          </Typography>
-          <Typography paddingBottom={2}>
-            I enjoy helping people transforming their ideas into the world.
-          </Typography>
-          <Typography paddingBottom={2}>
-            I am currently working for{" "}
-            <span>
-              <Link
-                href="https://credfin.io/"
-                target="_blank"
-                underline="hover"
-                style={{ color: "#ae4f2f" }}
-              >
-                Credfin Australia
-              </Link>
-            </span>{" "}
-            as a senior software engineer.
-          </Typography>
-          <Typography>"No greater engineer work 9 to 5"</Typography>
-        </Grid>
-        <Grid item>
-          <Avatar
-            alt="Jisu Choi"
-            src="../static/jisu.jpg"
-            sx={{ width: 180, height: 180 }}
-          />
-        </Grid>
-      </Grid>
+    <Box padding={10} style={{ color: "#507844" }}>
+      <Typography variant="h4" paddingBottom={2}>
+        Hi There, I am Jisu
+      </Typography>
+      <Typography paddingBottom={2}>
+        A <span style={{ color: "#ae4f2f" }}>full-stack software engineer</span>{" "}
+        based in Brisbane, Australia.
+      </Typography>
+      <Typography paddingBottom={2}>
+        I have a background in{" "}
+        <span style={{ color: "#ae4f2f" }}>computer science</span>.
+      </Typography>
+      <Typography paddingBottom={2}>
+        I enjoy helping people transforming their ideas into the world.
+      </Typography>
+      <Typography paddingBottom={2}>
+        I am currently working for{" "}
+        <span>
+          <Link
+            href="https://credfin.io/"
+            target="_blank"
+            underline="hover"
+            style={{ color: "#ae4f2f" }}
+          >
+            Credfin Australia
+          </Link>
+        </span>{" "}
+        as a senior software engineer.
+      </Typography>
+      <Typography>"No greater engineer work 9 to 5"</Typography>
     </Box>
   );
 };
